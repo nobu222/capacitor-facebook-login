@@ -10,12 +10,7 @@ public class FacebookLogin: CAPPlugin {
     private let dateFormatter = ISO8601DateFormatter()
     
     override public func load() {
-        if #available(iOS 11, *) {
-            dateFormatter.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
-        } else {
-            dateFormatter.formatOptions = [.withInternetDateTime]
-        }
-        
+        dateFormatter.formatOptions = [.withInternetDateTime]
     }
 
     private func dateToJS(_ date: Date) -> String {
