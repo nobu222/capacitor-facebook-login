@@ -25,7 +25,9 @@
     "ios/",
     "android/",
     "RdlaboCapacitorFacebookLogin.podspec",
-    "src"
+    "src/",
+    "rollup.config.js",
+    "tsconfig.json"
   ],
   "keywords": [
     "capacitor",
