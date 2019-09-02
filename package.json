@@ -24,7 +24,8 @@
     "dist/",
     "ios/",
     "android/",
-    "RdlaboCapacitorFacebookLogin.podspec"
+    "RdlaboCapacitorFacebookLogin.podspec",
+    "src"
   ],
   "keywords": [
     "capacitor",
