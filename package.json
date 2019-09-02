@@ -8,7 +8,7 @@
     "build": "npm run clean && tsc",
     "clean": "rm -rf ./dist",
     "watch": "tsc --watch",
-    "preinstall": "npm run build"
+    "prepublishOnly": "npm run build"
   },
   "author": "Masahiko Sakakibara",
   "license": "Apache-2.0",
@@ -24,10 +24,7 @@
     "dist/",
     "ios/",
     "android/",
-    "RdlaboCapacitorFacebookLogin.podspec",
-    "src/",
-    "rollup.config.js",
-    "tsconfig.json"
+    "RdlaboCapacitorFacebookLogin.podspec"
   ],
   "keywords": [
     "capacitor",
